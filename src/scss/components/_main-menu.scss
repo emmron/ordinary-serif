@@ -13,9 +13,18 @@
       > a {
         padding: 10px 12px 10px 12px;
         display: inline-block;
-        font-weight: normal;
         text-decoration: none;
-        color: $primary;
+        color: #000000;
+        background: rgb(255 162 29);
+        margin: 11px;
+        border-radius: 29px;
+        font-family: Montserrat, sans-serif;
+        letter-spacing: 0px;
+        text-transform: lowercase;
+        font-weight: 600;
+        font-size: 1.1em;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
         &:hover {
           text-decoration: underline;
         }
