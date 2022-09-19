@@ -21,6 +21,12 @@
     height: auto;
   }
   .feature-title {
+    flex-basis: 100%;
+    background: #212529;
+    width: auto;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 13px;
   }
   .feature-content {
     margin-bottom: 0;
