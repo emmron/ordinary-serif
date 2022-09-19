@@ -7,4 +7,4 @@ intro_image_hide_on_mobile: true
 
 # Ordinary - Draw them in
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Ordinary is a full service PPC & SEO Agency.

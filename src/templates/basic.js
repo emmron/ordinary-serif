@@ -8,6 +8,8 @@ const Basic = ({ data }) => {
   const { html } = data.markdownRemark;
   return (
     <Layout bodyClass="page-default-single">
+      <div className="hero-image">
+      </div>
       <div className="container pb-6 pt-6 pt-md-10 pb-md-10">
         <div className="row justify-content-start">
           <div className="col-12 col-md-8">
