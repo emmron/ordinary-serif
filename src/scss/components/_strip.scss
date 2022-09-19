@@ -1,24 +1,23 @@
 .strip {
   background: white;
   background-repeat: no-repeat;
-
   .service {
     .service-content {
       background: $orange;
+      background: #f5d09c;
       border-radius: 9px;
       min-height: 12rem;
       padding: 0;
       overflow: hidden;
       box-shadow: 0 10px 20px rgb(0 0 0 / 9%), 0 6px 6px rgb(0 0 0 / 6%);
       .service-title {
-        font-family: 'Orienta', sans-serif;
+        font-family: "Orienta", sans-serif;
         background: $brown;
         color: #fff;
         text-align: left;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         padding-left: 1rem;
-
         h2 {
           a {
             color: $orange;
