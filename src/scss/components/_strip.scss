@@ -1,13 +1,40 @@
 .strip {
   background: white;
   background-repeat: no-repeat;
-  a {
-    background: $orange;
-    color: #000;
-    padding: 0.5rem 0.75rem;
-    border-radius: 30px;
-    text-transform: lowercase;
+
+  .service {
+    .service-content {
+      background: $orange;
+      border-radius: 9px;
+      min-height: 12rem;
+      padding: 0;
+      overflow: hidden;
+
+      .service-title {
+
+        background: $brown;
+        color: #fff;
+        text-align: left;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1.5rem;
+
+        h2 {
+          a {
+            color: $orange;
+          }
+        }
+      }
+
+    }
+    p {
+      padding: 1rem;
+      margin-top: 0;
+    }
   }
+
+
+
 }
 .strip-white {
   background-color: white;
