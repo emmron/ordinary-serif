@@ -11,13 +11,13 @@
       overflow: hidden;
 
       .service-title {
-
+        font-family: 'Orienta', sans-serif;
         background: $brown;
         color: #fff;
         text-align: left;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        padding-left: 1.5rem;
+        padding-left: 1rem;
 
         h2 {
           a {
@@ -25,15 +25,20 @@
           }
         }
       }
+      p {
+        padding: 1rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+      }
+    }
 
-    }
-    p {
-      padding: 1rem;
-      margin-top: 0;
-    }
   }
 
-
+  p {
+    padding: 1rem;
+    margin-top: 0;
+  }
 
 }
 .strip-white {
