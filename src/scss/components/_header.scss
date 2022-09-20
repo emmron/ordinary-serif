@@ -9,10 +9,8 @@
   top: 0;
   left: 0;
   right: 0;
-  box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
   padding: 10px 0px;
   border-bottom: 7px solid #563609;
-
   .logo {
     margin-bottom: -2rem;
   }
@@ -20,6 +18,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
+    width: 100%;
   }
   &.header-absolute {
     position: absolute;

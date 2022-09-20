@@ -2,16 +2,16 @@
   {
     "title": "Build",
     "description": "Website development and optimisation. We build fully customisable websites for clients needs.",
-    "image": "/images/features/noun_branding_1885335.svg"
+    "image": "/images/features/build_icon.svg"
   },
   {
     "title": "Nurture",
     "description": "Local and on page SEO for small to medium businesses. Hosting and support for website management.",
-    "image": "/images/features/noun_The Process_1885341.svg"
+    "image": "/images/features/grow.svg"
   },
   {
     "title": "Grow",
     "description": "We can plan advertising spends across all major platforms (google, facebook, linkedin etc)",
-    "image": "/images/features/noun_3d modeling_1885342.svg"
+    "image": "/images/features/nurture.svg"
   }
 ]

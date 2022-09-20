@@ -5,6 +5,6 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Ordinary - Draw them in
+# Digital storytellers <br /> Content Creators <br /> Social Media Strategists
 
 Ordinary is a full service PPC & SEO Agency.

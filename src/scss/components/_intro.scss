@@ -2,19 +2,42 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: #ffb74d;
+  background: #563609;
   overflow: hidden;
+  height: 116vh;
+  padding-top: 0;
+  padding-bottom: 0;
   @include media-breakpoint-up(md) {
-    padding-top: 284px;
-    padding-bottom: 140px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
+
+  .container {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+
+    .row {
+      height: 100%;
+    }
+  }
+
+  .beach-img {
+    img {
+      width: 100%;
+      bottom: 0;
+      height: 100%;
+      object-fit: cover;
+      margin-bottom: 0;
+    }
+
+  }
+
   h1 {
-    color: $black;
+    color: #f5d09c;
     font-size: 42px;
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 61px;
     @include media-breakpoint-up(md) {
       width: 80%;
       font-size: 48px;
@@ -36,6 +59,7 @@
     font-weight: light;
     line-height: 1.5;
     color: $steel;
+    display: none;
     @include media-breakpoint-up(md) {
       width: 80%;
     }
@@ -45,4 +69,10 @@
 .intro-small {
   padding-top: 100px;
   padding-bottom: 30px;
+}
+
+.left-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

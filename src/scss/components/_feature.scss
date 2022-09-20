@@ -10,10 +10,10 @@
   box-shadow: 0 10px 20px rgb(0 0 0 / 9%), 0 6px 6px rgb(0 0 0 / 6%);
   .feature-image {
     flex: 0 0 auto;
-    width: 80px;
+    width: 48px;
     height: 80px;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: -4px;
     text-align: center;
   }
   img {
@@ -22,22 +22,15 @@
   }
   .feature-title {
     flex-basis: 100%;
-    background: #ffa21d;
     width: auto;
     color: black;
     padding: 0.25rem 0.5rem;
     border-radius: 13px;
     position: relative;
-    &:after {
-      content: " ";
-      background-color: #ffb74d;
-      position: absolute;
-      bottom: 17px;
-      height: 41px;
-      width: 100%;
+
+    label {
+      font-family: $font-family-base;
     }
-
-
   }
   .feature-content {
     margin-bottom: 0;

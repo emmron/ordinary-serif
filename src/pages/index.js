@@ -5,6 +5,9 @@ import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 import Call from '../components/Call';
 import logo from '../../static/images/oalogo.png';
+import downlogo from '../../static/images/arrow_down.svg';
+import beach from '../../static/images/beach.webp';
+import { withPrefix } from 'gatsby';
 const Home = props => {
   const intro = props.data.intro;
   const site = props.data.site.siteMetadata;
@@ -22,21 +25,26 @@ const Home = props => {
         />
       </Helmet>
 
-      <div className="intro">
-        <div className="container">
-          <div className="row justify-content-start">
-            <div className="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-              <div dangerouslySetInnerHTML={{ __html: intro.html }} />
-              <Call showButton />
-            </div>
-            {intro.frontmatter.intro_image && (
-              <div className="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-                <img alt={intro.frontmatter.title} className={introImageClasses} src={logo} />
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
+   <div className="intro">
+     <div className="container">
+       <div className="row justify-content-start">
+         <div className="col-12 col-md-7 col-lg-4 left-col order-2 order-md-1">
+           <div dangerouslySetInnerHTML={{ __html: intro.html }} />
+
+         </div>
+         {intro.frontmatter.intro_image && (
+             <div className="col-12 col-md-5 col-lg-8 order-1 order-md-2 position-relative beach-img">
+               <img alt={intro.frontmatter.title} className={introImageClasses} src={beach} />
+             </div>
+         )}
+       </div>
+       <img alt="" className="down_logo" src={downlogo} />
+
+     </div>
+   </div>
+
+
+
 
       {services.length > 0 && (
         <div className="strip">
@@ -76,7 +84,7 @@ const Home = props => {
                         <img src={node.image} />
                       </div>
                     )}
-                    <h2 className="feature-title">{node.title}</h2>
+                    <h2 className="feature-title"><label>{node.title}</label></h2>
                     <div className="feature-content">{node.description}</div>
                   </div>
                 </div>
