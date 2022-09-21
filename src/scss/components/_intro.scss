@@ -95,7 +95,12 @@ body {
     padding-right: 6rem !important;
     text-align: left;
     background: $brown;
-
+    @include media-breakpoint-up(md) {
+      padding-left: 10rem !important;
+      padding-right: 10rem !important;
+      text-align: center;
+      align-items: center;
+    }
     h2 {
       font-family: $font-family-base;
       color: $light-brown;
@@ -109,6 +114,10 @@ body {
 }
 
 .strip.second {
+
+
+  background: $brown;
+
   .row {
     width: 100%;
     height: 100%;
@@ -141,6 +150,17 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
+      @include media-breakpoint-up(md) {
+        padding-left: 10rem;
+        padding-right: 10rem;
+        text-align: center;
+      }
+
+      h2, p {
+        font-family: $font-family-base;
+        color: #f5d09c;
+      }
 
     }
   }
