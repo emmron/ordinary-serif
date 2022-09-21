@@ -16,6 +16,9 @@ const Home = props => {
   const introImageClasses = `intro-image ${intro.frontmatter.intro_image_absolute && 'intro-image-absolute'} ${intro.frontmatter.intro_image_hide_on_mobile && 'intro-image-hide-mobile'}`;
 
   return (
+
+
+
     <Layout bodyClass="page-home">
       <SEO title={site.title} />
       <Helmet>
