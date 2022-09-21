@@ -104,11 +104,13 @@ body {
     h2 {
       font-family: $font-family-base;
       color: $light-brown;
+      font-weight: 900;
     }
     p {
       padding-left: 0;
       padding-top: 0;
       color: $light-brown;
+      font-weight: 900;
     }
   }
 }
@@ -160,6 +162,7 @@ body {
       h2, p {
         font-family: $font-family-base;
         color: #f5d09c;
+        font-weight: 900;
       }
 
     }

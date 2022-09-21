@@ -2,7 +2,10 @@
   background: $footer-background-color;
   padding-top: 15px;
   padding-bottom: 15px;
-
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
   .footer_logo {
     margin-top: -4rem;
   }
@@ -20,7 +23,7 @@
   }
 
   .footer-title {
-    color: #ffffff;
+    color: #563609;
     font-size: 1.3rem;
     font-family: $font-family-base;
     font-weight: bold;
@@ -72,5 +75,14 @@
         }
       }
     }
+  }
+}
+
+.sub-footer {
+  background: #563609 !important;
+  color: #f5d09c !important;
+  .container {
+    max-width: 99%;
+    width: 99%;
   }
 }
