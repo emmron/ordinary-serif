@@ -49,10 +49,10 @@ const Home = props => {
 
       <div className="strip first">
         <div className="row">
-          <div className="col-6">
+          <div className="col-md-6 col-sm-12">
             <img alt={intro.frontmatter.title} src={beach} />
           </div>
-          <div className="col-6 right-col">
+          <div className="col-md-6 col-sm-12 right-col">
             <h2>About Us</h2>
             <p>Dark Horse is a boutique social media management, video production and content creation team.
               We are passionate about creating unique digital content to build relationships, increase brand awareness and translate engagements into sales.</p>
@@ -62,11 +62,11 @@ const Home = props => {
       </div>
       <div className="strip second">
         <div className="row">
-          <div className="col-6 right-col">
+          <div className="col-md-6 col-sm-12 right-col">
             <img alt={intro.frontmatter.title} src={beach} />
           </div>
-          <div className="col-6 left-col">
-            <h2>Our Services</h2>
+          <div className="col-md-6 col-sm-12 left-col">
+            <h2>Our Servicess</h2>
             <p>We create everything for your social media to engage with your customers and tell your brand story. With our specialist videography and photography team, in-house product studio, creative storytellers, social and ads strategists and our passion for your success, we can bring your digital marketing to life.</p>
           </div>
         </div>

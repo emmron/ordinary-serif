@@ -3,7 +3,27 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 module.exports = {
   siteMetadata: {
     title: 'Ordinary Agency',
-    description: 'Web, SEO & PPC'
+    description: 'Web, SEO & PPC',
+    menuLinks: [
+      {
+        name: `Home`,
+        link: `/home`,
+      },
+      {
+        name: `Services`,
+        link: `/services`,
+        subMenu: [
+          {
+            name: `Web Hosting`,
+            link: `/web-hosting`,
+          },
+        ],
+      },
+      {
+        name: `Page 3`,
+        link: `/page-3`,
+      },
+    ],
   },
   plugins: [
     'gatsby-plugin-sass',
