@@ -16,7 +16,7 @@ const Menu = props => {
     }
   `);
   return (
-    <div id="main-menu" className="main-menu">
+    <div id="main-menu" className="main-menu egh">
       <ul>
         {data.allMainMenuJson.edges.map(({ node }) => (
           <li key={node.name}>
